@@ -1,7 +1,8 @@
 .join-conversation-container {
   padding: 30px 0;
   // background-color: #FBF7ED;
-  color: var(--secondary);
+  background-color: var(--secondary);
+  color: var(--primary);
 }
 
 .user-join-conversation {
@@ -22,11 +23,15 @@
   margin: 0 3px;
   font-weight: 600;
   color: var(--primary-high);
-  background-color: var(--highlight);
+  background-color: var(--tertiary);
   border: none;
   box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.267);
   border-radius: 4px;
   transition: all 0.3s ease;
+}
+
+.user-join-conversation a:hover {
+  background-color: var(--tertiary-high);
 }
 
 
