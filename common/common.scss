@@ -11,6 +11,7 @@
 
 .user-join-conversation h1 {
   font-size: 36px;
+  color: var(--secondary-low);
 }
 
 .user-join-conversation p {
@@ -22,7 +23,7 @@
   padding: 10px 30px;
   margin: 0 3px;
   font-weight: 600;
-  color: var(--primary-high);
+  color: var(--primary);
   background-color: var(--tertiary);
   border: none;
   box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.267);
@@ -31,7 +32,7 @@
 }
 
 .user-join-conversation a:hover {
-  background-color: var(--tertiary-high);
+  background-color: var(--tertiary-hover);
 }
 
 
