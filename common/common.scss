@@ -1,6 +1,7 @@
 .join-conversation-container {
   padding: 30px 0;
-  background-color: #FBF7ED;
+  // background-color: #FBF7ED;
+  color: var(--secondary);
 }
 
 .user-join-conversation {
@@ -8,12 +9,11 @@
 }
 
 .user-join-conversation h1 {
-  color: #004C3F;
   font-size: 36px;
 }
 
 .user-join-conversation p {
-  color: #6B7177;
+  color: var(--primary-400);
   padding: 10px 0;
 }
 
@@ -21,8 +21,8 @@
   padding: 10px 30px;
   margin: 0 3px;
   font-weight: 600;
-  color: #fff;
-  background-color: #008060;
+  color: var(--primary-high);
+  background-color: var(--highlight);
   border: none;
   box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.267);
   border-radius: 4px;
