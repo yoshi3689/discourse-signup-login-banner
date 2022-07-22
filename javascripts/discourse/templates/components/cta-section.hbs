@@ -1,4 +1,5 @@
-{{#unless hideLoggedIn}}
+{{#if hideLoggedIn}}
+{{else}}
 <section class="join-conversation-container custom-container wrap">
   <div class="user-join-conversation shopify-container">
     <h1>{{html-safe (theme-i18n "meta_banner.main")}}</h1>
@@ -9,4 +10,4 @@
     </div>
   </div>
 </section>
-{{/unless}}
+{{/if}}
