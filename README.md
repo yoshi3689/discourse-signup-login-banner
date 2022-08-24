@@ -3,4 +3,4 @@
 ## functionality
 
 1. add login and signup buttons
-2. appear only when the user is not logged in
+2. disappear when the user is logged in

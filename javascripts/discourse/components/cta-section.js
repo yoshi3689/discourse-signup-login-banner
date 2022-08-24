@@ -5,10 +5,10 @@ import { computed } from "@ember/object";
 import { defaultHomepage } from "discourse/lib/utilities";
 export default Component.extend({
   router: service(),
-
   @discourseComputed("currentUser")
   hideLoggedIn(currentUser) {
     return (
+      // if the user is logged in
       (currentUser ? true : false)
     );
   },
